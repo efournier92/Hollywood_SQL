@@ -1,10 +1,10 @@
-# Hollywood SQL
+#Hollywood SQL
 
 This project contains a number of SQL queries I wrote to parse through the data contained in `movie_database.sql`. I did this exercise to practice:
 * Writing SQL queries that filter, order, and limit the number of results shown.
 * Writing SQL queries to pull information from multiple tables.
 
-### Database Setup Instructions
+###Database Setup Instructions
 
 **Run the following commands:**
 ```no-highlight
@@ -13,8 +13,8 @@ $ createdb movies
 $ psql movies < movie_database.sql
 ```
 
-###`queries.sql` contains SQL queries that answer the following questions:
-
+###`queries.sql`
+**Contains SQL queries that answer the following questions:**
 1. What are the top 50 worst rated movies? The results should include the movie title and rating and be sorted by the worst rating first.
 2. What movies do not have a rating? The results should include just the movie titles in sorted order.
 3. What movies have the word "thrilling" in their synopsis? The results should just include the movie title.
