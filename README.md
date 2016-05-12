@@ -13,7 +13,7 @@ $ createdb movies
 $ psql movies < movie_database.sql
 ```
 
-**`queries.sql` contains SQL queries that answer the following questions:**
+###`queries.sql` contains SQL queries that answer the following questions:
 
 1. What are the top 50 worst rated movies? The results should include the movie title and rating and be sorted by the worst rating first.
 2. What movies do not have a rating? The results should include just the movie titles in sorted order.
